@@ -22,20 +22,22 @@ The output will be printed to the terminal and written to a text file. The outpu
 -    Greatest increase in profits (date and amount)
 -    Greatest decrease in profits (date and amount)
 
-Input file location/filename : PyBank/Resources/budget_data.csv
-Output file location/filename: PyBank/analysis/budget_summary.txt
+Input and Output files:
+-    Input file location/filename : PyBank/Resources/budget_data.csv
+-    Output file location/filename: PyBank/analysis/budget_summary.txt
 
 The Python scripts reads each record from the csv file and saves it into two lists (date and profit/losses). Using the data saved in the lists, it performs the following to get the budget summary for the entire period:
 
-a.    Count the number of months saved in date list
-b.    Calculates the net total profit/losses saved in profit/losses list 
-c.    Calculate the monthly change in profit/losses and get the average monthly changes in profit/losses 
-d.    Find the greatest increase in profits/losses and the greatest decrease in profits/losses
-e.    Find the date for the greatest increase in profits/losses and greatest decrease in profits/losses
+-    Count the number of months saved in date list
+-    Calculates the net total profit/losses saved in profit/losses list 
+-    Calculate the monthly change in profit/losses and get the average monthly changes in profit/losses 
+-    Find the greatest increase in profits/losses and the greatest decrease in profits/losses
+-    Find the date for  the greatest increase in profits/losses and greatest decrease in profits/losses
 
 2.    PyPoll
 
-Analyze a rural town election data using Python script. The input is the poll data in csv format with three columns ("Ballot ID", "County", and "Candidate")
+Analyze a rural town election data using Python script. The input is the poll data in csv format 
+with three columns ("Ballot ID", "County", and "Candidate")
 
 The output will be printed to the terminal and written to a text file. The output includes the election result summary with the following information:
 
@@ -45,14 +47,15 @@ The output will be printed to the terminal and written to a text file. The outpu
 -    Total number of votes each candidate won
 -    Winner of the election based on popular vote
 
-Input file location : PyPoll/Resources/election_data.csv
-Output file location: PyPoll/analysis/election_summary.txt
+Input and Output files:
+-    Input file location : PyPoll/Resources/election_data.csv
+-    Output file location: PyPoll/analysis/election_summary.txt
 
 The Python scripts reads each record from the csv file and saves the “Candidate” column into a list. Using the data saved in the candidate list, it performs the following to get the election summary:
 
-a.    Count the total number of votes cast 
-b.    Create a unique list of candidates saved in the “candidate list”. For each candidate in the unique list, it calculates the total votes cast and the percentage of votes cast
-c.    Find the candidate with the greatest votes cast
+-    Count the total number of votes cast 
+-    Create a unique list of candidates saved in the “candidate list”. For each candidate in the unique list, it calculates the total votes cast and the percentage of votes cast
+-    Find the candidate with the greatest votes cast
 
 
 Project Submission:
