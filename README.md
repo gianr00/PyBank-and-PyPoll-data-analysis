@@ -62,13 +62,13 @@ Project Submission:
 The following folders/files will be uploaded to GitHub repository called “python-challenge”. A shareable link of the GitHub repository will be submitted to bootcamp spot site.
 
 1.    PyBank folder including the following:
-1.1    File named “main.py” – the PyBank python script 
-1.2    Folder named “analysis” – contains the budget summary text file and the screenshot of the result printed in the terminal
-1.3    Folder named “Resources” – contains the input csv files used 
+-    File named “main.py” – the PyBank python script 
+-    Folder named “analysis” – contains the budget summary text file and the screenshot of the result printed in the terminal
+-    Folder named “Resources” – contains the input csv files used 
 
 2.    PyPoll folder including the following:
-2.1    File named “main.py” – the PyPoll python script 
-2.2    Folder named “analysis” – contains the election summary result text file and the screenshot of the result printed in the terminal
-2.3    Folder named “Resources” – contains the input csv files used 
+-    File named “main.py” – the PyPoll python script 
+-    Folder named “analysis” – contains the election summary result text file and the screenshot of the result printed in the terminal
+-    Folder named “Resources” – contains the input csv files used 
 
 3.    README.md file
