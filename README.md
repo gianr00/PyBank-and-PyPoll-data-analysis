@@ -2,7 +2,7 @@
 
 Author: Rosie Gianan, gianr00@gmail.com
 
-Build with: Python 3.9.12
+Build with: Python 3.9.12, Visual Studio Code
 
 ## Objective:
 Analyze two csv files using Python scripting. 
@@ -17,19 +17,16 @@ Analyze two csv files using Python scripting.
 -    The greatest increase in profits (date and amount) over the entire period
 -    The greatest decrease in profits (date and amount) over the entire period
 
-
 Budget summary report:
 
 <img src="PyBank/analysis/budget_summary.png" width="500">
 
- 
 2.    PyPoll analysis - Create a Python script that reads each record from the [election_data.csv](PyPoll/Resources/election_data.csv) file, analyzes the records and generate an election summary report with the following information:
 -    The total number of votes cast
 -    A complete list of candidates who received votes
 -    The percentage of votes each candidate won
 -    The total number of votes each candidate won
 -    The winner of the election based on popular vote.
-
 
 Election summary report:
 
