@@ -56,7 +56,7 @@ def get_date_profit_losses():
         profit_losses_list = []
         
         # Initialize the dictionary to store the date and profit_losses 
-        date_profif_losses_dict = {}
+        date_profit_losses_dict = {}
         
         # Read and save each row of data after the header
         for row in in_csv_reader:
@@ -69,11 +69,11 @@ def get_date_profit_losses():
             profit_losses_list.append(float(row[1]))
     
     # Save the date and profit_losses to the dictionary
-    date_profif_losses_dict["date"] = date_list
-    date_profif_losses_dict["profit_losses"] = profit_losses_list
+    date_profit_losses_dict["date"] = date_list
+    date_profit_losses_dict["profit_losses"] = profit_losses_list
     
     # return the list of date and profit_losses saved in the dictionary            
-    return date_profif_losses_dict
+    return date_profit_losses_dict
 
 # Get the date for the profit_losses 
 def get_date_for_profit_losses(the_index, date_list):
@@ -233,9 +233,9 @@ def write_print_output(result_list):
 # -----------------------------------------------------------------------------------
 
 # Get the list of date and profit_losses from the csv input file
-date_profif_losses_dict = get_date_profit_losses()
-date_list = date_profif_losses_dict.get("date")
-profit_losses_list = date_profif_losses_dict.get("profit_losses")
+date_profit_losses_dict = get_date_profit_losses()
+date_list = date_profit_losses_dict.get("date")
+profit_losses_list = date_profit_losses_dict.get("profit_losses")
 
 # Perform data analysis and save result to a list
 result_list = create_result_list(date_list, profit_losses_list)     
